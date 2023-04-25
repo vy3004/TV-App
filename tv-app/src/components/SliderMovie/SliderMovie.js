@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./SliderMovie.css";
 import data from "../../data.json";
 import { useStateProvider } from "../../utils/StateProvider";
@@ -8,8 +8,11 @@ import "react-multi-carousel/lib/styles.css";
 
 export default function SliderMovie() {
   const [, dispatch] = useStateProvider();
+  const [focus, setFocus] = useState(false);
 
   const handleSetCurrentMovie = ({ id, image, title, description, rate }) => {
+    setFocus(true);
+
     dispatch({
       type: actionTypes.SET_CURRENT_MOVIE,
       current_movie: {
@@ -27,20 +30,13 @@ export default function SliderMovie() {
       <div className="slider-title">Popular Movies</div>
       <Carousel
         className="slider-content"
-        additionalTransfrom={1}
         arrows
-        autoPlay
+        autoPlay={!focus}
         autoPlaySpeed={2000}
-        centerMode={false}
-        draggable
-        focusOnSelect={false}
-        infinite
-        keyBoardControl
-        minimumTouchDrag={80}
         pauseOnHover={true}
-        renderArrowsWhenDisabled={false}
-        renderButtonGroupOutside={false}
-        renderDotsOutside={false}
+        infinite
+        draggable
+        swipeable
         responsive={{
           desktop: {
             breakpoint: {
@@ -86,7 +82,11 @@ export default function SliderMovie() {
       >
         {data.map(({ id, image, title, description, rate }) => {
           return (
-            <div key={id} className="slider-item">
+            <div
+              key={id}
+              className="slider-item"
+              onMouseLeave={() => setFocus(false)}
+            >
               <img
                 src={image}
                 alt="img"
