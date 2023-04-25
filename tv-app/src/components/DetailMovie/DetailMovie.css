@@ -1,0 +1,52 @@
+.detail-movie-container {
+  width: 40%;
+  height: 450px;
+  color: white;
+  padding: 0 2rem;
+  font-family: "Oswald";
+}
+
+.detail-movie-container p {
+  margin: 0;
+}
+
+.detail-movie-container .title-1 {
+  font-size: 90px;
+  font-weight: 700;
+}
+
+.detail-movie-container .title-2 {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.detail-movie-container .desc {
+  font-size: 18px;
+  font-weight: 300;
+  opacity: 0.8;
+  margin: 1rem 0;
+}
+
+.detail-movie-btn {
+  margin: 1rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.detail-movie-btn button {
+  background-color: #64b6d0;
+  color: white;
+  border-radius: 41px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.detail-movie-btn a {
+  color: #64b6d0;
+  margin-left: 2rem;
+}

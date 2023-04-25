@@ -1,0 +1,31 @@
+.slider-title {
+  color: white;
+  font-weight: 600;
+  margin: 2rem 1rem;
+}
+
+.slider-content {
+  background-color: rgba(255, 255, 255, 0.1);
+  height: 320px;
+  display: flex !important;
+  align-items: center;
+}
+
+.slider-item {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  height: 320px;
+}
+
+.slider-item img {
+  height: 270px;
+  transition: all 100ms ease-in;
+}
+
+.slider-item img:hover {
+  z-index: 1;
+  transition: all 200ms ease-in;
+  transform: scale(1.1);
+  border: 3px solid rgba(120, 192, 215);
+}

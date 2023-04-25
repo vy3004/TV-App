@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "GODZILLA: KING OF THE MONSTERS",
+    "image": "/2.png",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "rate": 4
+  },
+  {
+    "id": 2,
+    "title": "BATMAN",
+    "image": "/1.png",
+    "description": "Movie 1 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "rate": 5
+  },
+
+  {
+    "id": 3,
+    "title": "UNCHARTED",
+    "image": "/3.png",
+    "description": "Movie 3 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "rate": 5
+  },
+  {
+    "id": 4,
+    "title": "AMBULANCE",
+    "image": "/4.png",
+    "description": "Movie 4 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "rate": 4
+  },
+  {
+    "id": 5,
+    "title": "TURNING RED",
+    "image": "/5.png",
+    "description": "Movie 5 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "rate": 4
+  },
+  {
+    "id": 6,
+    "title": "AVENGERS: ENDGAME",
+    "image": "/6.png",
+    "description": "Movie 6 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "rate": 5
+  },
+  {
+    "id": 7,
+    "title": "JOHN WICK: CHAPTER 4",
+    "image": "/7.jpg",
+    "description": "Movie 7 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "rate": 5
+  }
+]

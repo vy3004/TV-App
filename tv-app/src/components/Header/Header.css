@@ -1,0 +1,31 @@
+.header-container {
+  height: 10vh;
+  padding: 0 2%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* position: sticky;
+  top: 0;
+  z-index: 1; */
+}
+
+.header-container button {
+  height: 3rem;
+  margin: 0 1%;
+  color: white;
+  font-weight: bold;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.header-left {
+  width: 40%;
+}
+
+.header-right {
+  width: 40%;
+  display: flex;
+  justify-content: end;
+}
