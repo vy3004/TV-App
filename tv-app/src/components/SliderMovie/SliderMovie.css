@@ -10,6 +10,15 @@
   display: flex !important;
   align-items: center;
 }
+.react-multiple-carousel__arrow--left {
+  left: 0 !important;
+  font-weight: bold;
+}
+
+.react-multiple-carousel__arrow--right {
+  right: 0 !important;
+  font-weight: bold;
+}
 
 .slider-item {
   display: flex !important;
